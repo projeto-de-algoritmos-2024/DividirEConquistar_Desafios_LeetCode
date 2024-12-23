@@ -17,18 +17,18 @@ Este repositório contém a solução de quatro desafios de Dividir e Conquistar
 ### Desafios Solucionados
 | Código | Desafio                                                                                                      | Dificuldade |
 |--------|--------------------------------------------------------------------------------------------------------------|-------------|
-|     | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/) | Difícil     |
+| 315    | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | Difícil     |
 |    |  | Difícil     |
 |     |                           | Média       |
 |     |                      | Média       |
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="" alt="">
+  <img src="img/315.jpeg" alt="Count of Smaller Numbers After Self">
 </p>
 
 <p align="center">
-  Resultado da submissão da solução para o desafio xxxx.
+  Resultado da submissão da solução para o desafio 315.
 </p>
 
 <p align="center">
