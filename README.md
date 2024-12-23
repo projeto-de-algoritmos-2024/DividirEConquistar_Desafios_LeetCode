@@ -24,7 +24,7 @@ Este repositório contém a solução de quatro desafios de Dividir e Conquistar
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="img/315.jpeg" alt="Count of Smaller Numbers After Self">
+  <img src="img/315.png" alt="Count of Smaller Numbers After Self">
 </p>
 
 <p align="center">
