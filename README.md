@@ -17,10 +17,9 @@ Este repositório contém a solução de quatro desafios de Dividir e Conquistar
 ### Desafios Solucionados
 | Código | Desafio                                                                                                      | Dificuldade |
 |--------|--------------------------------------------------------------------------------------------------------------|-------------|
-| 315    | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | Difícil     |
-|    |  | Difícil     |
-|     |                           | Média       |
-|     |                      | Média       |
+| 315    | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | Difícil|
+| 912    | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Média |
+| 493     | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/) | Difícil |
 
 ## 📸 Screenshots
 <p align="center">
@@ -32,29 +31,20 @@ Este repositório contém a solução de quatro desafios de Dividir e Conquistar
 </p>
 
 <p align="center">
-  <img src="" alt="">
+  <img src="img/912.png" alt="Sort an Array">
 </p>
 
 <p align="center">
-  Resultado da submissão da solução para o desafio xxxx.
+  Resultado da submissão da solução para o desafio 912.
 </p>
 
 <p align="center">
-  <img src="" alt="">
+  <img src="img/493.png" alt="Reverse Pairs">
 </p>
 
 <p align="center">
-  Resultado da submissão da solução para o desafio xxxx.
+  Resultado da submissão da solução para o desafio 493.
 </p>
-
-<p align="center">
-  <img src="" alt="">
-</p>
-
-<p align="center">
-  Resultado da submissão da solução para o desafio xxxx.
-</p>
-
 
 ## 🚀 Uso
 Para testar cada desafio:
@@ -65,10 +55,3 @@ Para testar cada desafio:
 ## 📚 Outros
 Este projeto visa exercitar conceitos de Dividir e Conquistar, abordando diferentes níveis de dificuldade em problemas propostos no LeetCode, focando em construção de Dividir e Conquistar, manipulação de arestas e algoritmos de otimização.
 
-## 🎥 Entrega de Vídeo
-
-Para complementar a explicação das soluções e facilitar o entendimento dos conceitos aplicados em cada desafio, incluímos uma apresentação em vídeo.
-
-### 📹 Link para o Vídeo
-[Entrega de Dividir e Conquistar ()](link) <br>
-[Entrega de Dividir e Conquistar ()](link)
