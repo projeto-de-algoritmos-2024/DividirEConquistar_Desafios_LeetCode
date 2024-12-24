@@ -1,0 +1,69 @@
+class Solution {
+public:
+    vector<int> sortArray(vector<int>& nums) {
+        // Se o vetor estiver vazio ou tiver 1 elemento, já está ordenado
+        if (nums.size() <= 1) {
+            return nums;
+        }
+        
+        mergeSort(nums, 0, nums.size() - 1);
+        return nums;
+    }
+    
+private:
+    // Função recursiva de Merge Sort
+    void mergeSort(vector<int>& arr, int left, int right) {
+        // Condição de parada: se left >= right, não há o que ordenar
+        if (left >= right) return;
+        
+        int mid = left + (right - left) / 2;
+        
+        // Ordena recursivamente a metade esquerda
+        mergeSort(arr, left, mid);
+        // Ordena recursivamente a metade direita
+        mergeSort(arr, mid + 1, right);
+        // Mescla as duas metades ordenadas
+        merge(arr, left, mid, right);
+    }
+    
+    // Função auxiliar que mescla (merge) dois subarrays ordenados
+    void merge(vector<int>& arr, int left, int mid, int right) {
+        // Tamanhos dos subarrays
+        int n1 = mid - left + 1;
+        int n2 = right - mid;
+        
+        // Vetores temporários
+        vector<int> L(n1), R(n2);
+        
+        // Copia dados para os vetores temporários L[] e R[]
+        for (int i = 0; i < n1; i++) {
+            L[i] = arr[left + i];
+        }
+        for (int j = 0; j < n2; j++) {
+            R[j] = arr[mid + 1 + j];
+        }
+        
+        // Índices de iteração
+        int i = 0, j = 0;
+        int k = left; // índice de início do subarray mesclado
+        
+        // Intercala L[] e R[] de volta em arr[left..right]
+        while (i < n1 && j < n2) {
+            if (L[i] <= R[j]) {
+                arr[k++] = L[i++];
+            } else {
+                arr[k++] = R[j++];
+            }
+        }
+        
+        // Copia os elementos restantes de L[], se houver
+        while (i < n1) {
+            arr[k++] = L[i++];
+        }
+        
+        // Copia os elementos restantes de R[], se houver
+        while (j < n2) {
+            arr[k++] = R[j++];
+        }
+    }
+};
