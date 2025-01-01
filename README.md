@@ -12,7 +12,7 @@
 ## 📝 Sobre
 Este repositório contém a solução de quatro desafios de Dividir e Conquistar do juiz online LeetCode. Foram resolvidas as questões difíceis de números **xxx** e **xxx**, e as questões de dificuldade média de número **xxx** e **xxx**.
 
-**Tecnologias Utilizadas**: xxx e yyy
+**Tecnologias Utilizadas**: C
 
 ### Desafios Solucionados
 | Código | Desafio                                                                                                      | Dificuldade |
